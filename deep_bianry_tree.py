@@ -7,6 +7,7 @@ root_of_tree["right_child"] = {"data": 56}
 first_child = root_of_tree["left_child"]
 first_child["left_child"] = {"data": 27}
 
+# Linear - O(N)
 def depth(tree):
     result = 0
     # our "queue" will store nodes at each level
